@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+  <head>
+    <title>
+      Bechdel Mockup
+    </title>
+    <style>
+    div {
+      padding-bottom: 10px;
+      text-align:center;
+    }
+    body {
+      color: #ffffff;
+      font-family: "Helvetica";
+      font-size: 13px;
+      background-color: #82c6c9;
+    }
+    #wrapper {
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    ul {
+      list-style-type: none;
+      list-style-position:inside;
+      margin:0;
+      padding:0;
+    }
+    #criteria {
+      text-align:center;
+    }
+    .crit {
+      padding: 10px;
+      margin-bottom: 15px;
+      margin-right:auto;
+      margin-left:auto;
+      width: 200px;
+    }
+    #pic {
+      width: 170px;
+    }
+    #navigation {
+      text-align: right;
+      font-size: 14px;
+      padding-bottom: 50px;
+    }
+    .nav {
+      list-style-type: none;
+      float: right;
+      display: block;
+      margin-right: 5px;
+      padding: 10px;
+      margin-top:auto;
+      margin-bottom:auto;
+    }
+    #sidebar {
+      width: 170px;
+      float: right;
+      padding-bottom: 20px;
+    }
+    #smalltext {
+      text-align:center;
+      font-size: 10px;
+    }
+    h3 {
+      text-align: center;
+    }
+    a:link, a:visited {
+      text-decoration: none;
+      color: #cfefe0;
+    }
+    a:hover, a:active {
+      color: #ffffff;
+    }
+    #submit {
+      border-radius: 5px;
+      font-family: "Helvetica"; 
+      background-color: #82c6c9;
+      font-size: 12px; 
+      color: #cfefe0;
+      padding: 4px 12px;
+      text-align: center; 
+      text-decoration: none;
+      display: inline-block;
+      border: solid 1px #ffffff;
+    }
+    #submit:hover {
+      color: #ffffff;
+    }
+    #inside {
+      margin-bottom: 70px;
+      position: static;
+      border-radius: 5px;
+      border: dotted 1px #ffffff;
+      text-align: center;
+      padding-left: 30px;
+      padding-right: 30px;
+      width: 745px;
+      height:100%;
+    }
+    input[type="text"] {
+      text-align:center;
+      width: 150px;
+    }
+    input[type="password"] {
+      text-align:center;
+      width: 150px;
+    }
+    #search, #login {
+      border-radius: 5px;
+      border: solid 1px #ffffff;
+    }
+    #recent {
+      border-radius: 5px;
+      border: solid 1px #ffffff;
+      text-align:center;
+    }
+    .sidebarlist {
+      padding-bottom: 20px;
+    }
+    .sideinput {
+      text-align:center;
+    }
+    .button {
+      text-align: center;
+    }
+    #footer {
+      position: fixed;
+      bottom:0;
+      left:0;
+      width: 100%;
+      background-color: #71688c;
+      padding-top: 10px;
+      height: 50px;
+      text-align: center;
+    }
+    .horizlinks {
+      text-align: center;
+    }
+    .foot {
+      display: inline;
+    }
+    .footop {
+      border-radius: 5px;
+      width: 150px;
+      margin-right: auto;
+      margin-left:auto;
+      margin-bottom: 20px;
+      background-color: #82c6c9; 
+      color: #cfefe0;
+      padding: 4px 12px;
+      text-align: center; 
+      text-decoration: none;
+      border: solid 1px #ffffff
+    }
+    .footop3 {
+      border-radius: 5px;
+      width: 150px;
+      margin-right: auto;
+      margin-left:auto;
+      background-color: #82c6c9; 
+      color: #cfefe0;
+      padding: 4px 12px;
+      text-align: center; 
+      text-decoration: none;
+      border: solid 1px #ffffff
+    }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+    <div id="navigation">
+      <ul>
+        <li class="nav">
+          <a href="#">contact</a>
+        </li>
+        <li class="nav">
+          <a href="#">forum</a>
+        </li>
+        <li class="nav">
+          <a href="#">donate</a>
+        </li>
+        <li class="nav">
+          <a href="#">about</a>
+        </li>
+        <li class="nav">
+          <a href="#">home</a>
+        </li>
+      </ul>
+    </div>
+    <div id="main">
+      <div id="sidebar">
+      <ul>
+        <li class"sidbarlist"><img id="pic" src="http://s32.postimg.org/mm2ve2whx/klappezulang.gif"/></li>
+      <li class="sidebarlist">
+      <div id="search">
+        <h3>looking for something?</h3>
+        <div class="sideinput"><input type="text" id="searchh" name="search" placeholder="enter search term..."></div>
+        <div class="button"><input id="submit" type="submit" value="search"></div>
+      </div>
+     </li>
+     <li class="sidebarlist">
+      <div id="login">
+        <h3>
+          log in
+        </h3>
+        <div class="sideinput">
+          <input type="text" id="username" name="username" placeholder="username">
+        </div>
+        <div class="sideinput">
+          <input type="password" id="password" name="password" placeholder="password">
+        </div>
+        <div class="button">
+          <input id="submit" type="submit" value="log in">
+        </div>
+        <div id="smalltext">Not a member? Sign up <a href="#">here</a>.</div>
+      </div>
+    </li>
+    <li class="sidebarlist">
+      <div id="recent">
+        <h3>recently added movies</h3>
+        <ul>
+          <li>
+            <a href="#">Movie #1</a>
+          </li>
+          <li>
+            <a href="#">Movie #2</a>
+          </li>
+          <li>
+            <a href="#">Movie #3</a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    </div>
+  </ul>
+  <div id="inside">
+      <div>
+        <div id="banner"><center><img src="http://s32.postimg.org/3zmduryid/welcomebanner.png"/></center></div>
+        Thanks for visiting the official Bechdel Test website. The Bechdel Test or Bechdel Rule is a way to rate films based on these three criteria...
+      </div>
+      <br>
+      <div id="graphic">
+        <img src ="http://s32.postimg.org/7z44mtrw5/graphic1.png"/>
+      </div>
+      <div>
+        If you would like to know more about the history and the creator of the Bechdel Test, click <a href="#">here</a>.
+      </div>
+      <div>
+        <h3>
+          search options
+        </h3>
+        <ul class="horizlinks">
+          <li class="footop">
+            <a href="#">search by name</a>
+          </li>
+          <li class="footop">
+            <a href="#">search by year</a>
+          </li>
+          <li class="footop3">
+            <a href="#">search by passing/failing</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>
+          recommended links
+        </h3>
+        <ul class="horizlinks">
+          <li class="foot">
+            <a href="https://feministfrequency.com/">Feminist Frequency</a>
+          </li> | 
+          <li class="foot">
+            <a href="http://womeninfilm.org/">Women in Film</a>
+          </li> | 
+          <li class="foot">
+            <a href="https://broadly.vice.com/">Broadly</a>
+          </li> | 
+          <li class="foot">
+            <a href="http://www.affinitymagazine.us/">Affinity</a>
+          </li> | 
+          <li class="foot">
+            <a href="http://nytlive.nytimes.com/womenintheworld/">Women in the World</a>
+          </li> | 
+          <li class="foot">
+            <a href="https://www.facebook.com/Feminists-United-400327940012739/?fref=ts">Feminists United</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  <center><div id="footer">
+    This website is not affiliated with Allison Bechdel<br>
+     &copy; Laura George<br>
+    <ul class="horizlinks">
+      <li class="foot">
+        <a href="#">Copyright</a>
+      </li> |
+      <li class="foot">
+        <a href="#">Terms &amp; Conditions</a>
+      </li> |
+      <li class="foot">
+        <a href="#">Sitemap</a>
+      </li>
+    </ul>
+  </div>
+</center>
+  </body>
+</html>
